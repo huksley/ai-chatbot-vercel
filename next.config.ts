@@ -15,6 +15,12 @@ const nextConfig: NextConfig = {
       {
         hostname: "127.0.0.1",
       },
+      {
+        hostname: "*.dollardeploy.dev",
+      },
+      {
+        hostname: "*.zh1km3mj.dollardeploy.dev",
+      },
     ],
   },
 };
