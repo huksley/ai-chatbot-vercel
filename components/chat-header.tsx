@@ -59,8 +59,14 @@ function PureChatHeader({
           rel="noreferrer"
           target="_noblank"
         >
-          <VercelIcon size={16} />
-          Deploy with Vercel
+          {/** biome-ignore lint/performance/noImgElement: fixme */}
+          <img
+            alt="DollarDeploy"
+            height={16}
+            src="https://dollardeploy.com/icon.png"
+            width={16}
+          />
+          Deployed with DollarDeploy
         </Link>
       </Button>
     </header>
