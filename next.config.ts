@@ -9,6 +9,15 @@ const nextConfig: NextConfig = {
       {
         hostname: "avatar.vercel.sh",
       },
+      {
+        hostname: "*.s3.us-east-1.amazonaws.com",
+      },
+      {
+        hostname: "127.0.0.1",
+      },
+      {
+        hostname: "app3.zh1km3mj.dollardeploy.dev",
+      },
     ],
   },
 };
